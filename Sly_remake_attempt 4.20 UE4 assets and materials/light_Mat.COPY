@@ -1,0 +1,60 @@
+Begin Object Class=/Script/Engine.Material Name="light_Mat"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_1"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=380.000000
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=3DC8393C4AD68EDA9184E59F15292B21
+      Material=Material'"light_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionVectorParameter'"light_Mat:MaterialExpressionVectorParameter_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionConstant'"light_Mat:MaterialExpressionConstant_0"')
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=F0F23A184D6D4A11E648608C18576C00
+      Material=Material'"light_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=1.000000,G=0.958813,B=0.000000,A=0.000000)
+      ParameterName="lightColor"
+      ExpressionGUID=6BC29DAA43ED25AB44A6C4AE5CCCB3B2
+      MaterialExpressionEditorX=-448
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=C26B440B47B75DE3134C57B81487B61E
+      Material=Material'"light_Mat"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_1"
+      DefaultValue=(R=0.737450,G=0.750000,B=0.000000,A=0.000000)
+      ParameterName="emissiveColor"
+      ExpressionGUID=5FE40A4A426AC7656AC837BF5EEB8865
+      MaterialExpressionEditorX=-592
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=42E2B8FE44233D68E66E7B8721D0E8C3
+      Material=Material'"light_Mat"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EmissiveColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_1"'
+   Expressions(2)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(3)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=2E6D516A431A44568C5926B0308A9777
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=A6EC16024E067BAA5722C58BFE7076DE
+End Object

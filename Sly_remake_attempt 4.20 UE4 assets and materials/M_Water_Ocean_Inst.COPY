@@ -1,0 +1,28 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="M_Water_Ocean_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=0022B4E541FF73797D488EABE436250C
+   Parent=Material'"/Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean"'
+   ScalarParameterValues(0)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="Large Wave Scale Tilling"),ParameterValue=15.000000,ExpressionGUID=33F1DD5543A008C237196589AFDA22B6)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="LargeWaveSpeed"),ParameterValue=0.200000,ExpressionGUID=A3A99DBE4E689115391DDEB7EDE616D5)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="LargeWavesScale"),ParameterValue=15.000000,ExpressionGUID=F02BAF5E4CECBD8604AAB5ADF33D2E79)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="LuminanceBias"),ParameterValue=-0.150000,ExpressionGUID=8DDB7A6E4B2A309DBFCFA889094016E0)
+   ScalarParameterValues(4)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="Noise speed"),ParameterValue=2.000000,ExpressionGUID=5F2CDF8041988D5FD6E2628BD8F9A71F)
+   ScalarParameterValues(5)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="Tessellate"),ParameterValue=1.000000,ExpressionGUID=6475613F445E15FDBBC0A08596C065A1)
+   ScalarParameterValues(6)=(ParameterInfo=(Name="WaterScale"),ParameterValue=100.000000,ExpressionGUID=BAB9BE1949E18DCD5EEA16BCE09B3F4C)
+   ScalarParameterValues(7)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="WaterSpeed"),ParameterValue=5.000000,ExpressionGUID=E78B729E4A813E6F8530B9BD969EC38A)
+   ScalarParameterValues(8)=(ParameterInfo=(Name="Waves"),ParameterValue=50.000000,ExpressionGUID=2E7254D64522BC5C7CC612A03637AE11)
+   ScalarParameterValues(9)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Water Base Color"),ParameterValue=(R=0.001950,G=0.018803,B=0.046875,A=0.000000),ExpressionGUID=D58B871044E651A2A8E815B71A317FA3)
+   VectorParameterValues(1)=(ParameterInfo=(Name="Wave Crest Color"),ParameterValue=(R=0.000000,G=0.629942,B=1.000000,A=1.000000),ExpressionGUID=D41585654AE460B6507CFEBC509820EB)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300,BlendMode=BLEND_Translucent)
+   ReferencedTextureGuids(0)=ED91C7FF44155A62899E11A48FACC6A8
+   ReferencedTextureGuids(1)=B1B48DC346A48B839A728CBBA9158683
+   ReferencedTextureGuids(2)=4777551E43F380CBE16E18B61B30C9DE
+   ReferencedTextureGuids(3)=307757E1458E615C7D97A39E32219707
+   ReferencedTextureGuids(4)=46D34F964D6E131E28D43191E2470316
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=EB09D35948A22C412BC0458110083FFC
+End Object

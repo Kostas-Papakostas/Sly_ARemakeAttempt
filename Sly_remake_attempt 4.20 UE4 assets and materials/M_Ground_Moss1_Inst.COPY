@@ -1,0 +1,17 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="M_Ground_Moss1_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Parent=Material'"/Game/StarterContent/Materials/M_Ground_Moss1.M_Ground_Moss1"'
+   ReferencedTextureGuids(0)=A8000B6D498302366329FDBE10EE447A
+   ReferencedTextureGuids(1)=7D90FE6741B06E64B8397586A6C3C334
+   ReferencedTextureGuids(2)=0C068365468906DC61E61398C2297CBA
+   ReferencedTextureGuids(3)=FFBC9D8F4DD4C44ACF7B3E8A2A48E1C8
+   ReferencedTextureGuids(4)=5F7EF89C4EC6D5650BED36ABCF29873F
+   ReferencedTextureGuids(5)=63630205489453D1DD626B866A967EB0
+   ReferencedTextureGuids(6)=B18C6E7041D0F2A269734A9E86767A70
+   ReferencedTextureGuids(7)=6751F0E04BB421525D4494882B0FD2E3
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=3ED070584B11B9532F1FDE9F059F72A0
+End Object

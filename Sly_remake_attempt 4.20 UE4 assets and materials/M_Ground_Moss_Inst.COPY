@@ -1,0 +1,29 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="M_Ground_Moss_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=053CE4C3491C649D164518ACB33E5CCF
+   Parent=Material'"/Game/StarterContent/Materials/M_Ground_Moss.M_Ground_Moss"'
+   ScalarParameterValues(0)=(AtlasData=(bIsUsedAsAtlasPosition=True),ParameterInfo=(Name="darkAmount"),ParameterValue=20.000000,ExpressionGUID=795C91DF4D9C9F91FAB51D96994B27FB)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="RoughnessAmount"),ParameterValue=0.880000,ExpressionGUID=67D219DE4AC519E8C81556998846C8A5)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="darkenCol"),ParameterValue=(R=0.001679,G=0.041667,B=0.000000,A=0.000000),ExpressionGUID=FD4E51754DB737A8DBFABAA42D08D860)
+   VectorParameterValues(1)=(ParameterInfo=(Name="MossColor"),ParameterValue=(R=0.000942,G=0.057292,B=0.000000,A=0.000000),ExpressionGUID=507D574D4A4D67FE1AA7348C0E227AFA)
+   BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=A8000B6D498302366329FDBE10EE447A
+   ReferencedTextureGuids(1)=B1B48DC346A48B839A728CBBA9158683
+   ReferencedTextureGuids(2)=F980E2B34F888E21E7BF9BB3F16E936A
+   ReferencedTextureGuids(3)=586059B04F098711ED8EC0910A533AF1
+   ReferencedTextureGuids(4)=0C068365468906DC61E61398C2297CBA
+   ReferencedTextureGuids(5)=FFBC9D8F4DD4C44ACF7B3E8A2A48E1C8
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Ground_Gravel_D",TextureReference=/Game/StarterContent/Textures/T_Ground_Gravel_D.T_Ground_Gravel_D)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Ground_Gravel_N",TextureReference=/Game/StarterContent/Textures/T_Ground_Gravel_N.T_Ground_Gravel_N)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_ground_Moss_D",TextureReference=/Game/StarterContent/Textures/T_ground_Moss_D.T_ground_Moss_D)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Ground_Moss_N",TextureReference=/Game/StarterContent/Textures/T_Ground_Moss_N.T_Ground_Moss_N)
+   TextureStreamingData(4)=(SamplingScale=0.046875,UVChannelIndex=0,TextureName="T_Perlin_Noise_M",TextureReference=/Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M)
+   PreviewMesh=/Game/EnvironmentAssets/Rocks/150k.150k
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=ED66F0EB4740D303AE583F8C53664EC9
+End Object
